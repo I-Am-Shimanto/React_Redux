@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { decreament, increment } from "../store/slices/CounterSlices";
 
 const App = () => {
-  const counter = useSelector((state) => state.counter.value);
+  const counter = useSelector((state) => state.count.value);
   const dispatch = useDispatch();
 
   return (
