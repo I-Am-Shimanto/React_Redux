@@ -7,11 +7,11 @@ const App = () => {
   const dispatch = useDispatch();
 
   return (
-    <>
+    <div>
       <button onClick={() => dispatch(increment())}>+</button>
       <h1>{counter}</h1>
       <button onClick={() => dispatch(decreament())}>-</button>
-    </>
+    </div>
   );
 };
 
